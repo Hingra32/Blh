@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Top Menu */
+.top-menu {
+  background-color: #343a40;
+  padding: 10px 0;
+}
+
+.top-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu ul li {
+  margin: 0 15px;
+}
+
+.top-menu ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+.top-menu ul li a:hover {
+  color: #007bff;
+}
+
+/* Header Section */
+.main-header {
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.main-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.main-header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 200px;
+}
+
+.sidebar input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #0056b3;
+}
+
+/* Recent Posts */
+.recent-posts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.recent-posts .box {
+  flex: 1;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.category {
+  flex: 1;
+  min-width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category ul li {
+  margin: 10px 0;
+}
+
+.category ul li a {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.category ul li a:hover {
+  color: #007bff;
+}
+
+/* Hot Posts */
+.hot-posts {
+  text-align: center;
+  padding: 20px;
+}
+
+.hot-posts h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.hot-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hot-posts ul li {
+  margin: 10px 0;
+}
+
+.hot-posts ul li a {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.hot-posts ul li a:hover {
+  color: #007bff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+  }
